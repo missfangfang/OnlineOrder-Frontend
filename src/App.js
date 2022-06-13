@@ -7,7 +7,8 @@ function App() {
   return (
     // 100vh (viewport height) - 100%占满整个网页页面
     // Ant Design固定header高度64px
-    <Layout style={{ height: "100vh" }}>
+    // {{ height: "100vh" }}: 里面括号是个普通JS object不需要翻译，外面括号告诉babel停止翻译，直到下一个括号继续翻译
+    <Layout style={{ height: "100vh" }}> 
       <Header>header</Header>  
       <Content
         style={{
