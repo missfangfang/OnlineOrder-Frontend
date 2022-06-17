@@ -82,7 +82,6 @@ class SignupForm extends React.Component {
                         >
                             <Input placeholder="lastname" />
                         </Form.Item>
-
                         <Form.Item>
                             <Button type="primary" htmlType="submit">
                                 Register
